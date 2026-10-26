@@ -1,0 +1,773 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+.tablet-title-break {
+  display: none;
+}
+
+body {
+  width: 375px;
+  font-family: "Big Shoulders", sans-serif;
+  padding: 0;
+  margin: 0px;
+  font-size: 18px;
+}
+
+.modern-art {
+  width: 375px;
+  height: 630px;
+  padding: 0;
+  margin: 0;
+}
+.modern-art img {
+  width: 100%;
+  height: 240px;
+}
+.modern-art h1 {
+  font-size: 60px;
+  width: 343px;
+  height: 110px;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 32px;
+  padding: 0;
+  font-weight: 900;
+  line-height: 55px;
+}
+.modern-art p {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 32px;
+  font-family: "Outfit", sans-serif;
+  width: 343px;
+  height: 112px;
+}
+.modern-art a {
+  width: 260px;
+  height: 72px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #151515 204px, #D5966C 56px);
+  color: #FFFFFF;
+  text-decoration: none;
+  width: 260px;
+  height: 72px;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 10px;
+  letter-spacing: 3.1px;
+}
+.modern-art a span {
+  margin-left: 70px;
+  font-size: 24px;
+  transform: scaleY(3);
+}
+.modern-art a:hover {
+  background: linear-gradient(90deg, #D5966C 204px, #151515 56px);
+}
+.modern-art a {
+  margin-bottom: 120px;
+  margin-left: 16px;
+}
+
+.imagenes {
+  width: 343px;
+}
+.imagenes .your-day {
+  margin-top: 120px;
+  height: 320px;
+  width: 375px;
+  margin-bottom: 25px;
+}
+.imagenes h2 {
+  height: 90px;
+  width: 343px;
+  font-family: "Big Shoulders", sans-serif;
+  font-size: 45px;
+  margin-top: 0;
+  margin-bottom: 21px;
+  margin-left: 16px;
+  padding: 0px;
+  font-weight: 900;
+  line-height: 50px;
+}
+.imagenes p {
+  height: 112px;
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 32px;
+  margin-left: 16px;
+}
+.imagenes .inspired {
+  height: 480px;
+  width: 375px;
+}
+.imagenes .inspired2 {
+  margin-top: 16px;
+  height: 200px;
+  width: 343px;
+  margin-bottom: 16px;
+}
+
+.come {
+  width: 375px;
+  height: 293px;
+  background-color: #151515;
+  color: white;
+  margin-top: 16px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.come h2 {
+  transform: translateY(18px);
+  margin-top: 18px;
+  margin-left: 24px;
+  margin-right: 24px;
+  height: 90px;
+  font-size: 45px;
+}
+.come p {
+  font-family: "Outfit", sans-serif;
+  height: 84;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-weight: 100;
+}
+
+.modern {
+  width: 375px;
+  height: 336px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #151515;
+  color: white;
+}
+.modern h2 {
+  transform: translateY(48px);
+  margin-top: 48px;
+  margin-left: 24px;
+  margin-right: 24px;
+  height: 90px;
+  font-size: 40px;
+}
+.modern p {
+  width: 295px;
+  height: 84px;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+}
+.modern img {
+  margin-top: 38px;
+  margin-left: 32px;
+  width: 100px;
+  height: 20px;
+}
+
+.back {
+  position: relative;
+  background-image: url("../img/Maps.png");
+  width: 375px;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: 375px 550px;
+  z-index: 0;
+}
+.back a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #D5966C 0 56px, #151515 56px 100%);
+  color: #FFFFFF;
+  text-decoration: none;
+  width: 260px;
+  height: 72px;
+  margin-left: 0px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 0px;
+  letter-spacing: 3.1px;
+}
+.back a span {
+  margin-right: 60px;
+  font-size: 24px;
+  transform: scaleY(3);
+}
+.back a:hover {
+  background: linear-gradient(90deg, #151515 0 56px, #D5966C 56px 100%);
+}
+.back a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.location {
+  width: 375px;
+  height: 593px;
+  background-color: #151515;
+  margin-bottom: 0;
+}
+.location h2 {
+  margin-left: 16px;
+  margin-right: 16px;
+  color: #FFFFFF;
+  font-size: 50px;
+  transform: translateY(48px);
+}
+.location h3 {
+  transform: translateY(48px);
+  font-size: 32px;
+  color: #D5966C;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+}
+.location ul {
+  transform: translateY(40px);
+  margin-top: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+  width: 343px;
+  height: 84px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  margin-left: -20px;
+}
+.location p {
+  font-weight: 100;
+  font-family: "Outfit", sans-serif;
+  transform: translateY(20px);
+  color: white;
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.gallery {
+  width: 375px;
+  height: 336px;
+  margin-top: 0;
+  background-color: #D5966C;
+}
+.gallery h3 {
+  transform: translateY(48px);
+  width: 110px;
+  margin-left: 32px;
+  font-size: 20px;
+}
+.gallery {
+  background-color: #D5966C;
+}
+.gallery p {
+  transform: translateY(38px);
+  margin: 32px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 250;
+}
+.gallery img {
+  transform: translateY(48px);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  main {
+    width: 100%;
+    overflow-x: clip;
+  }
+  .modern-art {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 120px;
+  }
+  .modern-art picture {
+    position: absolute;
+    top: 0px;
+    left: clamp(0px, 100vw - 635px, 0px);
+    width: min(437px, 100vw - 78px);
+    height: 700px;
+  }
+  .modern-art img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .modern-art h1 {
+    position: absolute;
+    top: 145px;
+    left: 380px;
+    z-index: 1;
+    width: min(420px, 100vw - 400px);
+    height: auto;
+    margin: 0;
+    font-size: clamp(46px, 6.84vw, 70px);
+    line-height: 0.95;
+  }
+  .modern-art h1 .tablet-title-break,
+  .modern-art h1 .tablet-title-line {
+    display: block;
+  }
+  .modern-art h1 .tablet-title-line {
+    white-space: nowrap;
+  }
+  .modern-art p {
+    position: absolute;
+    top: 310px;
+    left: 380px;
+    width: 339px;
+    height: 112px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+  .modern-art a {
+    position: absolute;
+    top: 450px;
+    left: 380px;
+    margin: 0;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  main {
+    width: 100%;
+    overflow-x: clip;
+  }
+  .modern-art {
+    --hero-image-left: clamp(320px, 31.25vw, 450px);
+    --hero-image-width: min(600px, 42vw);
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(to right, #151515 0 var(--hero-image-left), #FFFFFF var(--hero-image-left));
+  }
+  .modern-art picture {
+    position: absolute;
+    top: 0;
+    left: var(--hero-image-left);
+    width: var(--hero-image-width);
+    height: 800px;
+  }
+  .modern-art img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .modern-art h1 {
+    position: absolute;
+    top: 189px;
+    left: max(40px, (100% - 1110px) / 2);
+    z-index: 1;
+    width: 470px;
+    height: 300px;
+    margin: 0;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: clamp(70px, 6.67vw, 96px);
+    line-height: 1;
+    letter-spacing: 1.7px;
+    font-size: 96px;
+  }
+  .modern-art p {
+    position: absolute;
+    top: 249px;
+    left: calc(var(--hero-image-left) + var(--hero-image-width));
+    width: min(350px, 100% - var(--hero-image-left) - var(--hero-image-width) - 40px);
+    height: 160px;
+    margin: 0;
+    margin-left: -30px;
+    font-family: "Outfit", sans-serif;
+    line-height: 1.5;
+  }
+  .modern-art a {
+    position: absolute;
+    top: 445px;
+    left: calc(var(--hero-image-left) + var(--hero-image-width));
+    margin: 0;
+    margin-left: -25px;
+  }
+  .imagenes {
+    position: relative;
+    width: min(1110px, 100% - 80px);
+    height: 1150px;
+    margin: 100px auto 0;
+  }
+  .imagenes .gallery-intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 31.53%;
+    height: 280px;
+    margin: 0;
+    align-self: auto;
+  }
+  .imagenes h2 {
+    width: 100%;
+    height: auto;
+    margin: 0 0 24px;
+    font-size: clamp(45px, 4.17vw, 60px);
+    line-height: 1;
+  }
+  .imagenes p {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    line-height: 1.5;
+  }
+  .imagenes .your-day {
+    position: absolute;
+    top: 0;
+    left: 43.23%;
+    width: 57.21%;
+    height: 400px;
+    margin: 0;
+    object-fit: cover;
+  }
+  .imagenes .inspired {
+    position: absolute;
+    top: 430px;
+    left: 0;
+    width: 57.21%;
+    height: 720px;
+    margin: 0;
+    object-fit: cover;
+  }
+  .imagenes .inspired2 {
+    position: absolute;
+    top: 430px;
+    left: 59.91%;
+    width: 40.09%;
+    height: 313px;
+    margin: 0;
+    object-fit: cover;
+  }
+  .come {
+    position: relative;
+    box-sizing: border-box;
+    width: 450px;
+    height: 377px;
+    margin: -377px max(40px, (100% - 1110px) / 2) 0 auto;
+    margin-left: 730px;
+    padding: 60px 48px;
+  }
+  .come h2 {
+    height: auto;
+    margin: 0 0 24px;
+    font-size: 60px;
+    line-height: 1;
+    transform: none;
+  }
+  .come p {
+    height: auto;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    line-height: 1.5;
+  }
+  .modern {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr) 100px;
+    align-items: center;
+    gap: clamp(24px, 4.44vw, 64px);
+    box-sizing: border-box;
+    width: 100%;
+    height: 260px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 48px max(40px, (100% - 1110px) / 2);
+  }
+  .modern h2 {
+    height: auto;
+    margin: 0;
+    font-size: 40px;
+    transform: none;
+  }
+  .modern p {
+    width: auto;
+    height: auto;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    line-height: 1.5;
+  }
+  .modern img {
+    width: 100px;
+    height: 20px;
+    margin: 0;
+  }
+  .back {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/Maps1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .back a {
+    left: max(40px, (100% - 1110px) / 2);
+  }
+  .location {
+    display: grid;
+    grid-template-columns: 350px minmax(0, 1fr);
+    grid-template-rows: auto auto 1fr;
+    column-gap: clamp(48px, 8.68vw, 125px);
+    box-sizing: border-box;
+    width: 100%;
+    height: 450px;
+    padding: 110px max(40px, (100% - 1110px) / 2);
+  }
+  .location h2 {
+    grid-column: 1;
+    grid-row: 1/span 3;
+    width: 170px;
+    margin: 0;
+    font-size: clamp(56px, 4.86vw, 70px);
+    line-height: 1;
+    transform: none;
+  }
+  .location h3 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0 0 24px;
+    transform: none;
+    font-size: 36px;
+  }
+  .location ul {
+    grid-column: 2;
+    grid-row: 2;
+    width: auto;
+    height: auto;
+    margin: 0 0 24px;
+    padding: 0;
+    transform: none;
+  }
+  .location p {
+    grid-column: 2;
+    grid-row: 3;
+    margin: 0;
+    line-height: 1.5;
+    transform: none;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: 180px minmax(0, 1fr) 100px;
+    align-items: start;
+    gap: clamp(24px, 4.44vw, 64px);
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 64px max(40px, (100% - 1110px) / 2);
+  }
+  .gallery h3 {
+    width: auto;
+    margin: 0;
+    transform: none;
+    font-size: 33px;
+    width: 150px;
+  }
+  .gallery p {
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    line-height: 1.5;
+    transform: none;
+  }
+  .gallery img {
+    width: 100px;
+    height: 20px;
+    transform: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .imagenes {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: clamp(320px, 52vw, 400px) clamp(520px, 94vw, 720px);
+    grid-template-areas: "intro your-day" "inspired inspired2";
+    justify-content: center;
+    gap: 10px 10px;
+    width: calc(100% - 78px);
+    max-width: 846px;
+    margin: 0 auto;
+  }
+  .imagenes .your-day {
+    grid-area: your-day;
+    width: 420px;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+    transform: none;
+    transform: translateX(-50px);
+  }
+  .imagenes .gallery-intro {
+    grid-area: intro;
+    margin-left: 40px;
+    align-self: center;
+  }
+  .imagenes h2 {
+    width: 223px;
+    height: 135px;
+    margin: 0 0 24px;
+    font-size: 45px;
+    line-height: 1;
+  }
+  .imagenes p {
+    width: min(100%, 225px);
+    height: 140px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .imagenes .inspired {
+    grid-area: inspired;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .imagenes .inspired2 {
+    grid-area: inspired2;
+    width: min(100%, 380px);
+    height: 313px;
+    margin: 0;
+  }
+  .come {
+    margin: -395px max(39px, (100% - 1046px) / 2) 100px auto;
+    box-sizing: border-box;
+    width: min(370px, 100% - 78px);
+    height: 396px;
+    padding: 28px;
+  }
+  .come h2 {
+    height: auto;
+    margin: 0 0 24px;
+    font-size: 45px;
+    transform: none;
+  }
+  .come p {
+    height: auto;
+    margin: 0;
+  }
+  .modern {
+    display: grid;
+    grid-template-columns: minmax(190px, 1fr) minmax(260px, 1.5fr) 100px;
+    align-items: center;
+    gap: 32px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 260px;
+    padding: 32px 39px;
+  }
+  .modern h2 {
+    height: auto;
+    margin: 0;
+    font-size: 40px;
+    transform: none;
+  }
+  .modern p {
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+  .modern img {
+    margin: 0;
+  }
+  .back {
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 15/22;
+    margin-top: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .back a {
+    left: 0px;
+  }
+  .location {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 48px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    min-height: 120px;
+    padding: 40px 39px;
+  }
+  .location h2 {
+    width: 250px;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+    font-size: 55px;
+    transform: none;
+  }
+  .location h3 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0 0 20px;
+    transform: none;
+    height: 32px;
+  }
+  .location ul {
+    grid-column: 2;
+    grid-row: 2;
+    width: auto;
+    height: auto;
+    margin: 0 0 20px;
+    padding: 0;
+    transform: translateY(-50px);
+  }
+  .location p {
+    grid-column: 2;
+    grid-row: 3;
+    margin: 0;
+    transform: translateY(-50px);
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: 180px minmax(0, 1fr) 100px;
+    align-items: start;
+    gap: 32px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    padding: 64px 39px;
+  }
+  .gallery h3 {
+    width: auto;
+    margin: 0;
+    transform: none;
+  }
+  .gallery p {
+    margin: 0;
+    transform: none;
+  }
+  .gallery img {
+    transform: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
